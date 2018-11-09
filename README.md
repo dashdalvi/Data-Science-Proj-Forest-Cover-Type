@@ -20,6 +20,7 @@ Our goal is to predict the forest cover type. The seven types of forest cover ar
 7 - Krummholz
 
 This is a classification problem where the target could belong to any of the seven classes.
+
 Data Fields:
 Elevation - Elevation in meters
 Aspect - Aspect in degrees azimuth
@@ -37,10 +38,12 @@ Cover_Type (7 types, integers 1 to 7) - Forest Cover Type designation
 
 Question: Given the other attributes, what will be the 'Cover_Type'?
 The training set (15120 observations) contains both features and the Cover_Type. The test set (565892 observations) contains only the features.
+
 Assumptions:
 Ecology of the areas across which the data is collected is similar.
 Seasonal changes are constant across all the observations.
 The dataset is recently collected.
+
 Limitations:
 Environmental factors affecting the growth of any cover type is not taken into consideration.
 Human error while collecting data is not accounted for.
